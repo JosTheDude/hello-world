@@ -1,2 +1,6 @@
 on load:
 	broadcast "Hello World"
+
+command /test:
+    trigger:
+        send "Hello World!" to sender
